@@ -1,0 +1,102 @@
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha1.png
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha2.png
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha3.png
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha4.png
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\PR32.exe.config
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\PR32.exe
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\PR32.pdb
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\MySql.Data.dll
+D:\Vasilkova32\Vasilkova32\PR32\PR32\bin\Debug\MySql.Data.xml
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.AssemblyReference.cache
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.Avtoriz.resources
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.Menu.resources
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.Properties.Resources.resources
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.Setting.resources
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.GenerateResource.cache
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.CoreCompileInputs.cache
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.CopyComplete
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.exe
+D:\Vasilkova32\Vasilkova32\PR32\PR32\obj\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha1.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha2.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha3.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\Captcha4.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\PR32.exe.config
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\PR32.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\System.Memory.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.Avtoriz.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.Menu.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.Setting.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\obj\Debug\PR32.ProductForm.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\A782R4.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\D374E4.jpeg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\glysh.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\K830R4.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova32\PR32\PR32\bin\Debug\Resources\K849L6.jpeg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\A782R4.jpg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha1.png
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha2.png
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha3.png
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha4.png
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\D374E4.jpeg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\glysh.jpg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K830R4.jpg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K849L6.jpeg
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe.config
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.pdb
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\MySql.Data.dll
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\MySql.Data.xml
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.AssemblyReference.cache
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Avtoriz.resources
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Menu.resources
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.ProductForm.resources
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Properties.Resources.resources
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Setting.resources
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.GenerateResource.cache
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.CoreCompileInputs.cache
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.CopyComplete
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.exe
+C:\Users\student250\Desktop\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\A782R4.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha1.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha2.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha3.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha4.png
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\D374E4.jpeg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\glysh.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K830R4.jpg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K849L6.jpeg
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe.config
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Memory.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Avtoriz.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Menu.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.ProductForm.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Setting.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.ResolveComReference.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.CartForm.resources
+C:\Users\ASUS\OneDrive\Рабочий стол\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
