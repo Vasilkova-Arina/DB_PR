@@ -72,20 +72,20 @@ namespace PR32
 
             dataGridView1.Columns.Add(new DataGridViewButtonColumn
             {
-                Name = "Remove",
+                Name = "Удаление",
                 Text = "Удалить",
                 UseColumnTextForButtonValue = true,
                 Width = 90
             });
 
             foreach (DataGridViewColumn c in dataGridView1.Columns)
-                if (c.Name != "Quantity" && c.Name != "Remove")
+                if (c.Name != "Quantity" && c.Name != "Удаление")
                     c.ReadOnly = true;
 
             dataGridView1.CellContentClick += (s, ev) =>
             {
                 if (ev.RowIndex < 0) return;
-                if (dataGridView1.Columns[ev.ColumnIndex].Name != "Remove") return;
+                if (dataGridView1.Columns[ev.ColumnIndex].Name != "Удаление") return;
 
                 string art = dataGridView1.Rows[ev.RowIndex].Cells["Article"].Value?.ToString();
                 Cart.Remove(art);
@@ -97,7 +97,7 @@ namespace PR32
                 if (ev.RowIndex < 0) return;
                 if (dataGridView1.Columns[ev.ColumnIndex].Name != "Quantity") return;
 
-                string art = dataGridView1.Rows[ev.RowIndex].Cells["Article"].Value?.ToString();
+                string art = dataGridView1.Rows[ev.RowIndex].Cells["Артикул"].Value?.ToString();
                 int.TryParse(dataGridView1.Rows[ev.RowIndex].Cells["Quantity"].Value?.ToString(), out int q);
                 Cart.SetQty(art, q);
                 RefreshGrid();
@@ -213,26 +213,41 @@ namespace PR32
                     p.Range.InsertParagraphAfter();
                 };
 
-                line("ТАЛОН НА ПОЛУЧЕНИЕ ЗАКАЗА");
+                int ticketWidth = 32;
+
+                string lineSeparator = new string('-', ticketWidth);
+                string doubleSeparator = new string('=', ticketWidth);
+
+                string FormatRow(string left, string right)
+                {
+                    int spacesCount = ticketWidth - left.Length - right.Length;
+                    if (spacesCount < 1) spacesCount = 1; 
+                    return left + new string(' ', spacesCount) + right;
+                }
+
+                line(doubleSeparator);
+                line("    ТАЛОН НА ПОЛУЧЕНИЕ ЗАКАЗА   ");
+                line(doubleSeparator);
+
                 line("Дата: " + DateTime.Now.ToString("dd.MM.yyyy HH:mm"));
                 line("Номер заказа: " + number);
+                line("Пункт выдачи: " + pickup);
+                line(lineSeparator);
+
                 line("Состав заказа:");
                 foreach (var it in Cart.Items)
-                    line($"   {it.Name}  x{it.Quantity}  =  {it.Sum:0.00} руб.");
-                line("Сумма заказа: " + Cart.Total.ToString("0.00") + " руб.");
-                line("Сумма скидки: " + Cart.DiscountSum.ToString("0.00") + " руб.");
-                line("Пункт выдачи: " + pickup);
-                line("Срок доставки: " + days + " дн.");
+                {
+                    string leftSide = $" {it.Name} x{it.Quantity}";
+                    string rightSide = $"{it.Sum:0.00} руб.";
+                    line(FormatRow(leftSide, rightSide));
+                }
+                line(lineSeparator);
 
-                var pCode = doc.Content.Paragraphs.Add();
-                pCode.Range.Text = "Код получения: ";
-                pCode.Range.InsertAfter(code);
-                int start = pCode.Range.Start + "Код получения: ".Length;
-                var r = doc.Range(start, start + code.Length);
-                r.Font.Size = 28;
-                r.Font.Bold = 1;
+                line(FormatRow("Сумма заказа:", $"{Cart.Total:0.00} руб."));
+                line(FormatRow("Сумма скидки:", $"{Cart.DiscountSum:0.00} руб."));
+                line(doubleSeparator);
 
-                doc.SaveAs2(path,
+                doc.SaveAs(path,
                     Word.WdSaveFormat.wdFormatXMLDocument);
 
                 doc.Close(Word.WdSaveOptions.wdDoNotSaveChanges);

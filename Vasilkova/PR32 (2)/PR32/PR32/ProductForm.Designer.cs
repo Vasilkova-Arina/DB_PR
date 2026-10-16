@@ -73,7 +73,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(255)))), ((int)(((byte)(102)))));
             this.label1.Location = new System.Drawing.Point(677, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 26);
+            this.label1.Size = new System.Drawing.Size(19, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "g";
             // 
@@ -107,7 +107,7 @@
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(204)))));
             this.textBox1.Location = new System.Drawing.Point(12, 435);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(455, 34);
+            this.textBox1.Size = new System.Drawing.Size(455, 29);
             this.textBox1.TabIndex = 2;
             // 
             // comboBox1
@@ -119,7 +119,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(399, 435);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(324, 34);
+            this.comboBox1.Size = new System.Drawing.Size(324, 28);
             this.comboBox1.TabIndex = 3;
             // 
             // comboBox2
@@ -131,7 +131,7 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(655, 435);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(324, 34);
+            this.comboBox2.Size = new System.Drawing.Size(324, 28);
             this.comboBox2.TabIndex = 4;
             // 
             // button1
@@ -152,7 +152,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 526);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 26);
+            this.label2.Size = new System.Drawing.Size(88, 21);
             this.label2.TabIndex = 6;
             this.label2.Text = "Название:";
             // 
@@ -161,7 +161,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 563);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 26);
+            this.label3.Size = new System.Drawing.Size(83, 21);
             this.label3.TabIndex = 7;
             this.label3.Text = "Единица:";
             // 
@@ -170,7 +170,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 607);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 26);
+            this.label4.Size = new System.Drawing.Size(53, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Цена:";
             // 
@@ -179,7 +179,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(439, 604);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 26);
+            this.label5.Size = new System.Drawing.Size(93, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Описание:";
             // 
@@ -188,7 +188,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 694);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(165, 26);
+            this.label6.Size = new System.Drawing.Size(137, 21);
             this.label6.TabIndex = 10;
             this.label6.Text = "Производитель:";
             // 
@@ -197,7 +197,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(439, 482);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 26);
+            this.label7.Size = new System.Drawing.Size(104, 21);
             this.label7.TabIndex = 11;
             this.label7.Text = "Поставщик:";
             // 
@@ -206,7 +206,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(12, 644);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(117, 26);
+            this.label8.Size = new System.Drawing.Size(98, 21);
             this.label8.TabIndex = 12;
             this.label8.Text = "Категория:";
             // 
@@ -215,7 +215,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(439, 519);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(230, 26);
+            this.label9.Size = new System.Drawing.Size(191, 21);
             this.label9.TabIndex = 13;
             this.label9.Text = "Максимальная скидка:";
             // 
@@ -224,7 +224,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(439, 563);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 26);
+            this.label10.Size = new System.Drawing.Size(73, 21);
             this.label10.TabIndex = 14;
             this.label10.Text = "Скидка:";
             // 
@@ -233,7 +233,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(437, 673);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 26);
+            this.label11.Size = new System.Drawing.Size(56, 21);
             this.label11.TabIndex = 15;
             this.label11.Text = "Фото:";
             // 
@@ -242,36 +242,38 @@
             this.unitProduct.FormattingEnabled = true;
             this.unitProduct.Location = new System.Drawing.Point(119, 563);
             this.unitProduct.Name = "unitProduct";
-            this.unitProduct.Size = new System.Drawing.Size(290, 34);
+            this.unitProduct.Size = new System.Drawing.Size(290, 28);
             this.unitProduct.TabIndex = 16;
             // 
             // nameProduct
             // 
             this.nameProduct.Location = new System.Drawing.Point(119, 523);
             this.nameProduct.Name = "nameProduct";
-            this.nameProduct.Size = new System.Drawing.Size(290, 34);
+            this.nameProduct.Size = new System.Drawing.Size(290, 29);
             this.nameProduct.TabIndex = 17;
             // 
             // priceProduct
             // 
             this.priceProduct.Location = new System.Drawing.Point(119, 605);
             this.priceProduct.Name = "priceProduct";
-            this.priceProduct.Size = new System.Drawing.Size(290, 34);
+            this.priceProduct.Size = new System.Drawing.Size(290, 29);
             this.priceProduct.TabIndex = 18;
+            this.priceProduct.TextChanged += new System.EventHandler(this.priceProduct_TextChanged);
+            this.priceProduct.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.priceProduct_KeyPress);
             // 
             // categoryProduct
             // 
             this.categoryProduct.FormattingEnabled = true;
             this.categoryProduct.Location = new System.Drawing.Point(128, 645);
             this.categoryProduct.Name = "categoryProduct";
-            this.categoryProduct.Size = new System.Drawing.Size(281, 34);
+            this.categoryProduct.Size = new System.Drawing.Size(281, 28);
             this.categoryProduct.TabIndex = 19;
             // 
             // manufProduct
             // 
             this.manufProduct.Location = new System.Drawing.Point(170, 691);
             this.manufProduct.Name = "manufProduct";
-            this.manufProduct.Size = new System.Drawing.Size(239, 34);
+            this.manufProduct.Size = new System.Drawing.Size(239, 29);
             this.manufProduct.TabIndex = 20;
             // 
             // salleryProduct
@@ -279,28 +281,30 @@
             this.salleryProduct.FormattingEnabled = true;
             this.salleryProduct.Location = new System.Drawing.Point(573, 479);
             this.salleryProduct.Name = "salleryProduct";
-            this.salleryProduct.Size = new System.Drawing.Size(208, 34);
+            this.salleryProduct.Size = new System.Drawing.Size(208, 28);
             this.salleryProduct.TabIndex = 21;
             // 
             // maxAmount
             // 
             this.maxAmount.Location = new System.Drawing.Point(675, 516);
             this.maxAmount.Name = "maxAmount";
-            this.maxAmount.Size = new System.Drawing.Size(106, 34);
+            this.maxAmount.Size = new System.Drawing.Size(106, 29);
             this.maxAmount.TabIndex = 22;
+            this.maxAmount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.maxAmount_KeyPress);
             // 
             // amountProduct
             // 
             this.amountProduct.Location = new System.Drawing.Point(534, 560);
             this.amountProduct.Name = "amountProduct";
-            this.amountProduct.Size = new System.Drawing.Size(247, 34);
+            this.amountProduct.Size = new System.Drawing.Size(247, 29);
             this.amountProduct.TabIndex = 23;
+            this.amountProduct.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.amountProduct_KeyPress);
             // 
             // decriptionProduct
             // 
             this.decriptionProduct.Location = new System.Drawing.Point(547, 597);
             this.decriptionProduct.Name = "decriptionProduct";
-            this.decriptionProduct.Size = new System.Drawing.Size(234, 34);
+            this.decriptionProduct.Size = new System.Drawing.Size(234, 29);
             this.decriptionProduct.TabIndex = 24;
             // 
             // addButton
@@ -334,7 +338,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(439, 639);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(86, 26);
+            this.label12.Size = new System.Drawing.Size(70, 21);
             this.label12.TabIndex = 29;
             this.label12.Text = "Кол-во:";
             // 
@@ -342,8 +346,10 @@
             // 
             this.countProduct.Location = new System.Drawing.Point(547, 636);
             this.countProduct.Name = "countProduct";
-            this.countProduct.Size = new System.Drawing.Size(234, 34);
+            this.countProduct.Size = new System.Drawing.Size(234, 29);
             this.countProduct.TabIndex = 30;
+            this.countProduct.TextChanged += new System.EventHandler(this.countProduct_TextChanged);
+            this.countProduct.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.countProduct_KeyPress);
             // 
             // labelCount
             // 
@@ -352,7 +358,7 @@
             this.labelCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(255)))), ((int)(((byte)(102)))));
             this.labelCount.Location = new System.Drawing.Point(86, 20);
             this.labelCount.Name = "labelCount";
-            this.labelCount.Size = new System.Drawing.Size(23, 26);
+            this.labelCount.Size = new System.Drawing.Size(19, 21);
             this.labelCount.TabIndex = 31;
             this.labelCount.Text = "g";
             // 
@@ -377,10 +383,11 @@
             this.btnViewOrder.TabIndex = 32;
             this.btnViewOrder.Text = "Просмотр заказа";
             this.btnViewOrder.UseVisualStyleBackColor = false;
+            this.btnViewOrder.Click += new System.EventHandler(this.btnViewOrder_Click);
             // 
             // ProductForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1082, 853);
             this.Controls.Add(this.btnViewOrder);

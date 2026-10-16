@@ -92,17 +92,15 @@ namespace PR32
             dataGridView1.CellFormatting += dataGridView1_CellFormatting;
             dataGridView1.CellPainting += dataGridView1_CellPainting;
 
-            // ===== Корзина =====
+
             btnViewOrder.Visible = !Cart.IsEmpty;
 
-            // Кнопка "Просмотр заказа" — открывает форму корзины
             btnViewOrder.Click += (s, ev) =>
             {
                 new CartForm(_user).ShowDialog();
                 btnViewOrder.Visible = !Cart.IsEmpty;
             };
 
-            // ПКМ по строке — добавляем ИМЕННО ЭТУ строку в корзину
             dataGridView1.CellMouseClick += (s, ev) =>
             {
                 if (ev.Button != MouseButtons.Right) return;
@@ -701,6 +699,109 @@ namespace PR32
 
                 using (var bold = new Font(font, FontStyle.Bold))
                     g.DrawString(newPrice, bold, brush, x + wPrefix + wOld + wArrow, y);
+            }
+
+            e.Handled = true;
+        }
+
+        private void btnViewOrder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void priceProduct_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void priceProduct_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            if (e.KeyChar == '.' || e.KeyChar == ',')
+            {
+                e.KeyChar = separator;
+            }
+
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back)
+            {
+                return;
+            }
+
+            if (e.KeyChar == separator && !((TextBox)sender).Text.Contains(separator.ToString()))
+            {
+                return;
+            }
+
+            e.Handled = true;
+        }
+
+        private void maxAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            if (e.KeyChar == '.' || e.KeyChar == ',')
+            {
+                e.KeyChar = separator;
+            }
+
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back)
+            {
+                return;
+            }
+
+            if (e.KeyChar == separator && !((TextBox)sender).Text.Contains(separator.ToString()))
+            {
+                return;
+            }
+
+            e.Handled = true;
+        }
+
+        private void amountProduct_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            if (e.KeyChar == '.' || e.KeyChar == ',')
+            {
+                e.KeyChar = separator;
+            }
+
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back)
+            {
+                return;
+            }
+
+            if (e.KeyChar == separator && !((TextBox)sender).Text.Contains(separator.ToString()))
+            {
+                return;
+            }
+
+            e.Handled = true;
+        }
+
+        private void countProduct_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countProduct_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            if (e.KeyChar == '.' || e.KeyChar == ',')
+            {
+                e.KeyChar = separator;
+            }
+
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back)
+            {
+                return;
+            }
+
+            if (e.KeyChar == separator && !((TextBox)sender).Text.Contains(separator.ToString()))
+            {
+                return;
             }
 
             e.Handled = true;
