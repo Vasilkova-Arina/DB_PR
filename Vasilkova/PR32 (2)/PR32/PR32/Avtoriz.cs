@@ -220,12 +220,23 @@ namespace PR32
                 Fail();
                 return;
             }
+
             count = 0;
             viewCaotcha = false;
 
             this.Hide();
-            Menu menu = new Menu(user);
-            menu.ShowDialog();
+
+            if (user.UserRole == 1 || user.UserRole == 2)
+            {
+                Menu2 menu2 = new Menu2(user);
+                menu2.ShowDialog();
+            }
+            else
+            {
+                Menu menu = new Menu(user);
+                menu.ShowDialog();
+            }
+
             this.Close();
         }
 

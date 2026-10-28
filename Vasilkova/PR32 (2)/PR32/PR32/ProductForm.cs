@@ -806,5 +806,10 @@ namespace PR32
 
             e.Handled = true;
         }
+
+        private void labelCount_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

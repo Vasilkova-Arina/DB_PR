@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\pr32\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\vasilkova\\pr32 (2)\\pr32\\pr32\\properties\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\properties\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\menu2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\menu2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +42,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\App.config",
-              "RelativeDocumentMoniker": "PR32\\App.config",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\App.config",
-              "RelativeToolTip": "PR32\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-10-14T16:24:53.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Avtoriz.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\User.cs",
+              "RelativeDocumentMoniker": "PR32\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\User.cs",
+              "RelativeToolTip": "PR32\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:49:38.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Avtoriz.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
               "RelativeDocumentMoniker": "PR32\\Avtoriz.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs [Design]",
-              "RelativeToolTip": "PR32\\Avtoriz.cs [Design]",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "RelativeToolTip": "PR32\\Avtoriz.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAgwOMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T16:24:49.853Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\CartForm.cs",
-              "RelativeDocumentMoniker": "PR32\\CartForm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\CartForm.cs",
-              "RelativeToolTip": "PR32\\CartForm.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAmwOkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T16:03:51.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\CartForm.cs",
-              "RelativeDocumentMoniker": "PR32\\CartForm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\CartForm.cs [Design]",
-              "RelativeToolTip": "PR32\\CartForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T15:54:58.193Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Properties\\Card.cs",
-              "RelativeDocumentMoniker": "PR32\\Properties\\Card.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Properties\\Card.cs",
-              "RelativeToolTip": "PR32\\Properties\\Card.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T15:49:52.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\ProductForm.cs",
-              "RelativeDocumentMoniker": "PR32\\ProductForm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\ProductForm.cs",
-              "RelativeToolTip": "PR32\\ProductForm.cs",
-              "ViewState": "AgIAAIkCAAAAAAAAAAAawBcCAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T14:41:06.477Z",
+              "WhenOpened": "2026-10-28T15:47:32.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\ProductForm.cs",
-              "RelativeDocumentMoniker": "PR32\\ProductForm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Vasilkova\\PR32 (2)\\PR32\\PR32\\ProductForm.cs [Design]",
-              "RelativeToolTip": "PR32\\ProductForm.cs [Design]",
+              "Title": "Avtoriz.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "RelativeDocumentMoniker": "PR32\\Avtoriz.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs [Design]",
+              "RelativeToolTip": "PR32\\Avtoriz.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T14:37:53.424Z",
+              "WhenOpened": "2026-10-28T15:47:29.599Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeDocumentMoniker": "PR32\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeToolTip": "PR32\\Order.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwFQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:02:48.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeDocumentMoniker": "PR32\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs [Design]",
+              "RelativeToolTip": "PR32\\Order.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:01:41.012Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu2.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Menu2.cs",
+              "RelativeDocumentMoniker": "PR32\\Menu2.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Menu2.cs",
+              "RelativeToolTip": "PR32\\Menu2.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T14:57:58.475Z",
+              "EditorCaption": ""
             }
           ]
         }
