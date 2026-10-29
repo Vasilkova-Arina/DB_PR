@@ -85,7 +85,6 @@ namespace PR32
             cbSort.SelectedIndexChanged += (s, ev) => ApplyFilters();
 
             ApplyFilters();
-            //Pagination();
 
         }
 
@@ -106,7 +105,6 @@ namespace PR32
 
             FillDataGrid(strCmd);
             UpdateCounter();
-            //Pagination();
         }
 
         public void FillDataGrid(string strCmd)

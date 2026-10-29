@@ -62,6 +62,7 @@
     <Compile Include="Avtoriz.Designer.cs">
       <DependentUpon>Avtoriz.cs</DependentUpon>
     </Compile>
+    <Compile Include="BackupService.cs" />
     <Compile Include="CartForm.cs">
       <SubType>Form</SubType>
     </Compile>

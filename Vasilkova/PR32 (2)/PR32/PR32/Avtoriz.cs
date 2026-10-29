@@ -30,12 +30,17 @@ namespace PR32
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Backup
+            BackupService.CreateBackup();
             Application.Exit();
         }
 
         private void Avtoriz_Load(object sender, EventArgs e)
         {
             log.Focus();
+
+            
+
             if (!TestConnection(out string err))
             {
                 var res = MessageBox.Show(

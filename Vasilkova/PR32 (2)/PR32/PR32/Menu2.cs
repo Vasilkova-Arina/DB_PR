@@ -61,6 +61,9 @@ namespace PR32
             else
                 label2.Text = "Добро пожаловать, " + _user.Fio;
 
+
+            button5.Visible = (_user != null && _user.UserRole == 1);
+
             ActiveForm(this);
             timerSon.Start();
         }
@@ -172,6 +175,18 @@ namespace PR32
             order.ShowDialog();
             this.Show();
             timerSon.Start();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            using (var fbd = new FolderBrowserDialog())
+            {
+                fbd.Description = "Выберите папку для сохранения резервной копии";
+                if (fbd.ShowDialog() == DialogResult.OK)
+                {
+                    BackupService.CreateBackup(fbd.SelectedPath);
+                }
+            }
         }
     }
 }
