@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|c:\\users\\student247\\desktop\\db_pr\\db_pr\\vasilkova\\pr32 (2)\\pr32\\pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\pr32\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\avtoriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\pr32\\menu2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054F3DF7-36A1-4120-BA49-6BB76A904EBB}|PR32\\PR32.csproj|solutionrelative:pr32\\menu2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\User.cs",
+              "RelativeDocumentMoniker": "PR32\\User.cs",
+              "ToolTip": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\User.cs",
+              "RelativeToolTip": "PR32\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T07:34:41.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Avtoriz.cs",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "RelativeDocumentMoniker": "PR32\\Avtoriz.cs",
+              "ToolTip": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "RelativeToolTip": "PR32\\Avtoriz.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAgwOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-10-29T07:34:41.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Avtoriz.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs",
+              "RelativeDocumentMoniker": "PR32\\Avtoriz.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Avtoriz.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-10-29T07:34:41.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeDocumentMoniker": "PR32\\Order.cs",
+              "ToolTip": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeToolTip": "PR32\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T07:34:41.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs",
+              "RelativeDocumentMoniker": "PR32\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Order.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-10-29T07:34:41.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu2.cs",
+              "DocumentMoniker": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Menu2.cs",
+              "RelativeDocumentMoniker": "PR32\\Menu2.cs",
+              "ToolTip": "C:\\Users\\student247\\Desktop\\DB_PR\\DB_PR\\Vasilkova\\PR32 (2)\\PR32\\PR32\\Menu2.cs",
+              "RelativeToolTip": "PR32\\Menu2.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-10-29T07:34:41.517Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

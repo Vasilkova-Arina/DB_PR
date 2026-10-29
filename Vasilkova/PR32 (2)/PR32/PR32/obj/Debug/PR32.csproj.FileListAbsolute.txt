@@ -187,3 +187,46 @@ C:\Users\ASUS\OneDrive\Рабочий стол\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR
 C:\Users\ASUS\OneDrive\Рабочий стол\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.Up2Date
 C:\Users\ASUS\OneDrive\Рабочий стол\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.exe
 C:\Users\ASUS\OneDrive\Рабочий стол\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.pdb
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\A782R4.jpg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha1.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha2.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha3.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Captcha4.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\D374E4.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\glysh.jpg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K830R4.jpg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\K849L6.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\O393R4.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\S037R9.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\S983R4.jpg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Z374R3.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Z469T7.jpg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\Z472R4.jpeg
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\154505.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\logo.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\Resources\logo1.png
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe.config
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.exe
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\PR32.pdb
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Memory.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\bin\Debug\System.Buffers.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.AssemblyReference.cache
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\Interop.VBIDE.dll
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.ResolveComReference.cache
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Avtoriz.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.CartForm.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Menu.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Menu2.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Order.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.ProductForm.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Properties.Resources.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.Setting.resources
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.GenerateResource.cache
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.CoreCompileInputs.cache
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.csproj.Up2Date
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.exe
+C:\Users\student247\Desktop\DB_PR\DB_PR\Vasilkova\PR32 (2)\PR32\PR32\obj\Debug\PR32.pdb

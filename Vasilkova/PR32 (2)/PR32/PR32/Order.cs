@@ -22,6 +22,9 @@ namespace PR32
                                  $"Uid={Properties.Settings.Default.uid};" +
                                  $"Pwd={Properties.Settings.Default.pwd};" +
                                  $"Database=db29;";
+        private const int PageSize = 10;
+        private List<OrderRow> _filteredOrders = new List<OrderRow>();
+        private int _currentPage;
         public Order(User user)
         {
             InitializeComponent();
@@ -97,8 +100,8 @@ namespace PR32
                 SELECT o.OrderID, o.OrderDate, o.OrderDeliveryDate, o.OrderClient, o.OrderPickupPoint, 
                 s.StatusName, p.ProductCost, p.ProductDiscountAmount, p.ProductQuantityInStock, op.ProductCount
                 FROM `Order` o
-                JOIN OrderProduct op ON o.OrderID = op.OrderID
-                JOIN Product p ON op.ProductArticleNumber = p.ProductArticleNumber
+                LEFT JOIN OrderProduct op ON o.OrderID = op.OrderID
+                LEFT JOIN Product p ON op.ProductArticleNumber = p.ProductArticleNumber
                 LEFT JOIN Status s ON o.OrderStatus = s.StatusID";
 
             FillDataGrid(strCmd);
@@ -132,15 +135,27 @@ namespace PR32
 
                 foreach (var row in group)
                 {
+                    if (row["ProductCost"] == DBNull.Value ||
+                        row["ProductCount"] == DBNull.Value)
+                    {
+                        allInStock = false;
+                        continue;
+                    }
+
                     decimal cost = Convert.ToDecimal(row["ProductCost"]);
                     int count = Convert.ToInt32(row["ProductCount"]);
-                    decimal disc = row["ProductDiscountAmount"] == DBNull.Value ? 0 : Convert.ToDecimal(row["ProductDiscountAmount"]);
-                    int stock = Convert.ToInt32(row["ProductQuantityInStock"]);
+                    decimal disc = row["ProductDiscountAmount"] == DBNull.Value
+                        ? 0
+                        : Convert.ToDecimal(row["ProductDiscountAmount"]);
+                    int stock = row["ProductQuantityInStock"] == DBNull.Value
+                        ? 0
+                        : Convert.ToInt32(row["ProductQuantityInStock"]);
 
                     totalCost += cost * count;
-                    totalDiscount += (cost * count) * (disc / 100m);
+                    totalDiscount += cost * count * (disc / 100m);
 
-                    if (stock <= 3) allInStock = false;
+                    if (stock <= 3)
+                        allInStock = false;
                 }
 
                 orders.Add(new OrderRow
@@ -170,28 +185,11 @@ namespace PR32
             if (cbSort.SelectedIndex == 1) orders = orders.OrderBy(o => o.Total).ToList();
             else if (cbSort.SelectedIndex == 2) orders = orders.OrderByDescending(o => o.Total).ToList();
 
-            dataGridView1.DataSource = orders;
-            dataGridView1.Columns["OrderID"].Visible = false;
-            dataGridView1.Columns["Total"].Visible = false;
-            dataGridView1.Columns["DiscountPercent"].Visible = false;
-            dataGridView1.Columns["AllInStock"].Visible = false;
 
-            dataGridView1.Columns["Date"].HeaderText = "Дата заказа";
-            dataGridView1.Columns["Delivery"].HeaderText = "Дата доставки";
-            dataGridView1.Columns["Client"].HeaderText = "ФИО клиента";
-            dataGridView1.Columns["Pickup"].HeaderText = "Пункт выдачи";
-            dataGridView1.Columns["Status"].HeaderText = "Статус";
+            _filteredOrders = orders;
+            _currentPage = 0;
+            ShowPage(_currentPage);
 
-            foreach (DataGridViewRow row in dataGridView1.Rows)
-            {
-                if (row.DataBoundItem is OrderRow order)
-                {
-                    row.DefaultCellStyle.BackColor = order.AllInStock
-                        ? Color.FromArgb(0x20, 0xB2, 0xAA)  // #20b2aa (> 3)
-                        : Color.FromArgb(0xFF, 0x8C, 0x00); // #ff8c00 (<= 3)
-                }
-            }
-            Pagination();
         }
         private void UpdateCounter()
         {
@@ -209,70 +207,92 @@ namespace PR32
 
             labelCount.Text = visible + " из " + total;
         }
-        void Pagination()
+        private void ShowPage(int page)
         {
-            for (int j = this.Controls.Count - 1; j >= 0; --j)
+            int pageCount = Math.Max(1, (_filteredOrders.Count + PageSize - 1) / PageSize);
+
+            _currentPage = Math.Max(0, Math.Min(page, pageCount - 1));
+
+            var pageRows = _filteredOrders
+                .Skip(_currentPage * PageSize)
+                .Take(PageSize)
+                .ToList();
+
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = pageRows;
+
+            string[] hiddenColumns = { "OrderID", "Total", "DiscountPercent", "AllInStock" };
+            foreach (string name in hiddenColumns)
             {
-                if (this.Controls[j].Name.StartsWith("page"))
-                    this.Controls.RemoveAt(j);
+                if (dataGridView1.Columns.Contains(name))
+                    dataGridView1.Columns[name].Visible = false;
             }
 
-            int rowsCount = dataGridView1.Rows.Count;
-            int size = rowsCount / 20;
-            if (rowsCount % 20 > 0) size += 1;
-            if (size <= 1) return;
+            SetHeader("Date", "Дата заказа");
+            SetHeader("Delivery", "Дата доставки");
+            SetHeader("Client", "ФИО клиента");
+            SetHeader("Pickup", "Пункт выдачи");
+            SetHeader("Status", "Статус");
 
-            LinkLabel[] ll = new LinkLabel[size];
-            int x = 10, y = 480, step = 15;
-
-            for (int i = 0; i < size; ++i)
+            foreach (DataGridViewRow row in dataGridView1.Rows)
             {
-                ll[i] = new LinkLabel();
-                ll[i].Text = Convert.ToString(i + 1);
-                ll[i].Name = "page" + i;
-                ll[i].AutoSize = true;
-                ll[i].Location = new Point(x, y);
-                ll[i].Click += new EventHandler(LinkLabel_Click);
-                ll[i].LinkColor = Color.FromArgb(102, 255, 102);
-                ll[i].Font = new Font("Comic Sans MS", 14f, FontStyle.Bold);
+                if (row.DataBoundItem is OrderRow order)
+                {
+                    row.DefaultCellStyle.BackColor = order.AllInStock
+                        ? Color.FromArgb(0x20, 0xB2, 0xAA)
+                        : Color.FromArgb(0xFF, 0x8C, 0x00);
+                }
+            }
 
-                this.Controls.Add(ll[i]);
-                ll[i].BringToFront();
+            CreatePageLinks(pageCount);
+        }
+
+        private void SetHeader(string columnName, string header)
+        {
+            if (dataGridView1.Columns.Contains(columnName))
+                dataGridView1.Columns[columnName].HeaderText = header;
+        }
+
+        private void CreatePageLinks(int pageCount)
+        {
+            for (int i = Controls.Count - 1; i >= 0; i--)
+            {
+                if (Controls[i].Name.StartsWith("page"))
+                    Controls.RemoveAt(i);
+            }
+
+            int x = 10;
+            int y = 650;
+            int step = 25;
+
+            for (int i = 0; i < pageCount; i++)
+            {
+                var link = new LinkLabel
+                {
+                    Text = (i + 1).ToString(),
+                    Name = "page" + i,
+                    Tag = i,
+                    AutoSize = true,
+                    Location = new Point(x, y),
+                    LinkColor = Color.FromArgb(102, 255, 102),
+                    Font = new Font("Comic Sans MS", 14f, FontStyle.Bold),
+                    LinkBehavior = i == _currentPage
+                        ? LinkBehavior.NeverUnderline
+                        : LinkBehavior.AlwaysUnderline
+                };
+
+                link.Click += LinkLabel_Click;
+                Controls.Add(link);
+                link.BringToFront();
 
                 x += step;
             }
-
-            if (ll.Length > 0)
-                LinkLabel_Click(ll[0], EventArgs.Empty);
         }
 
-        void LinkLabel_Click(object sender, EventArgs e)
+        private void LinkLabel_Click(object sender, EventArgs e)
         {
-            LinkLabel l = sender as LinkLabel;
-            if (l == null) return;
-
-            foreach (Control ctrl in this.Controls)
-                if (ctrl is LinkLabel && ctrl.Name.StartsWith("page"))
-                    ((LinkLabel)ctrl).LinkBehavior = LinkBehavior.AlwaysUnderline;
-
-            l.LinkBehavior = LinkBehavior.NeverUnderline;
-
-            int numPage = Convert.ToInt32(l.Text) - 1;
-            int countRows = dataGridView1.Rows.Count;
-            int sizePage = 20;
-            int start = numPage * sizePage;
-            int stop = start + sizePage;
-
-            if (dataGridView1.DataSource != null)
-            {
-                CurrencyManager cm = (CurrencyManager)BindingContext[dataGridView1.DataSource];
-                cm.SuspendBinding();
-
-                for (int j = 0; j < countRows; ++j)
-                    dataGridView1.Rows[j].Visible = (j >= start && j < stop);
-
-                cm.ResumeBinding();
-            }
+            if (sender is LinkLabel link && link.Tag is int page)
+                ShowPage(page);
         }
 
         private void tbPoick_TextChanged(object sender, EventArgs e)
